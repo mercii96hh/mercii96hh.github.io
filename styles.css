@@ -5,6 +5,7 @@ body {
   background-image: url("../assets/topography.png");
   background-attachment: fixed;
   margin: 0;
+  font-family: 'Grandstander', cursive;
 }
 
 .content {
@@ -35,9 +36,9 @@ img {
   width: 50px;
   height: 50px;
   margin-left: 20%;
-
   position: absolute;
 }
+
 .navbar {
   background-color: rgba(0, 0, 0, 1);
   margin: 10px;
@@ -45,16 +46,17 @@ img {
   min-width: 600px;
   padding: 10px 10vw 10px 10px;
 }
+
 .container {
   margin-left: 10%;
   padding: 0 10% 0 10%;
 }
+
 a {
   color: #ff0099;
   position: relative;
   float: right;
   top: 8px;
-
   font-size: 30px;
   margin: 0 10px;
   transition: all 200ms;
@@ -63,6 +65,7 @@ a {
 a:hover {
   transform: scale(1.1);
 }
+
 .paragraph {
   color: #ff0099;
 }
